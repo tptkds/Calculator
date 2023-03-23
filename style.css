@@ -1,0 +1,48 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #344756;
+  width: 350px;
+  height: 344px;
+  padding-top: 36px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+header {
+  background-color: #3d5079;
+  margin: 0 35px;
+  width: 280px;
+  height: 70px;
+}
+
+header .result {
+  color: white;
+  font-size: 20px;
+  text-align: right;
+  padding: 23px 15px;
+}
+
+.keypad {
+  display: flex;
+}
+
+.keypad .numbers {
+  margin-top: 18px;
+  margin-left: 35px;
+  background-color: #e1453c;
+  width: 180px;
+  height: 220px;
+}
+
+.keypad .operators {
+  margin-top: 18px;
+  margin-left: 20px;
+  background-color: white;
+  width: 80px;
+  height: 220px;
+}

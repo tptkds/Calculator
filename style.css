@@ -26,7 +26,9 @@ header .result {
   text-align: right;
   padding: 23px 15px;
 }
-
+table {
+  border-collapse: collapse;
+}
 .keypad {
   display: flex;
 }
@@ -37,6 +39,7 @@ header .result {
   background-color: #e1453c;
   width: 180px;
   height: 220px;
+  color: white;
 }
 
 .keypad .operators {
@@ -45,4 +48,52 @@ header .result {
   background-color: white;
   width: 80px;
   height: 220px;
+  color: #e1453c;
+}
+
+.numbers table {
+  display: flex;
+}
+
+.numbers tbody {
+  display: flex;
+  flex-direction: column;
+}
+.numbers tbody tr {
+  height: 55px;
+}
+.numbers tbody tr td {
+  width: 60px;
+  text-align: center;
+  line-height: 55px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.numbers tbody tr:last-child td:first-child {
+  width: 120px;
+}
+
+.numbers tbody tr:last-child td:last-child {
+  width: 58.68px;
+}
+
+.operators table {
+  display: flex;
+  border-collapse: collapse;
+}
+.operators table tbody {
+  display: flex;
+  flex-direction: column;
+}
+
+.operators table tbody tr {
+  height: 44px;
+}
+
+.operators table tbody tr td {
+  text-align: center;
+  line-height: 44px;
+  width: 80px;
+  border: #e1453c 1px solid;
+  cursor: pointer;
 }

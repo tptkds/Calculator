@@ -87,12 +87,12 @@ table {
 }
 
 .operators table tbody tr {
-  height: 44px;
+  height: 36.6px;
 }
 
 .operators table tbody tr td {
   text-align: center;
-  line-height: 44px;
+  line-height: 36.6px;
   width: 80px;
   border: #e1453c 1px solid;
   cursor: pointer;
